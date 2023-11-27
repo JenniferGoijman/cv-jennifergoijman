@@ -1,9 +1,10 @@
 import './App.css'
 import { PersonalInformation } from './components/PersonalInformation/PersonalInformation'
 import { useTranslation } from 'react-i18next'
+import { Section } from './components/common/Section/Section'
 
 function App() {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const language = i18n.language;
 
@@ -16,6 +17,10 @@ function App() {
       <h1>Jennifer Goijman</h1>
 
       <PersonalInformation />
+
+      <Section title="About Me">
+        <p>{t('aboutMe.text')}</p>
+      </Section>
     </>
   )
 }
