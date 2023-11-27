@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Paragraph } from "../common/Typography/Typography";
+import { SkillsContainer } from "../Skills/Skills";
+import { SkillType } from "../../utils/skills.model";
 
 const jobsArray = ['journi', 'oneBeyond'];
 
@@ -14,6 +16,7 @@ export const Jobs = () => {
     <>
       {jobsArray.map(job => {
         const descriptions: string[] = t(`jobs.${job}.description`, {  returnObjects: true })
+        const skills: SkillType[] = t(`jobs.${job}.skills`, {  returnObjects: true })
 
         return (
         <div style={{ marginBottom: 20 }}>
@@ -26,6 +29,7 @@ export const Jobs = () => {
           </div>
 
           {descriptions.map(description => <Paragraph>{description}</Paragraph>)}
+          <SkillsContainer skills={skills} />
         </div>
       )})}
     </>

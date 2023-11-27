@@ -23,6 +23,19 @@
       "dates": "March 2023 - Present",
       "description": [
         "As a Frontend Engineer, I have been developing an app for a provider of water management services, utilizing React, TypeScript, SWR, MobX, Styled-Components, Cypress, and Figma. My responsibilities include seamless data integration from the backend team's API, fostering consistent communication and collaboration across departments. I am dedicated to delivering high-quality and responsive user interfaces."
+      ],
+      "skills": [
+        "react",
+        "typescript",
+        "swr",
+        "mobx",
+        "styledComponents",
+        "cypress",
+        "jest",
+        "storybook",
+        "vite",
+        "git",
+        "figma"
       ]
     },
     "oneBeyond": {
@@ -32,6 +45,20 @@
       "description": [
         "I have a wealth of experience in various projects, including an e-learning platform for an educational publishing company. I was part of the Learning Experience segment and played a key role in building a front-end library that renders interactive e-learning exercises using technologies such as React, Redux, MUI, unit & e2e testing.",
         "Additionally, I have experience in leading and mentoring team members to develop and implement a full-stack internal application for skill management. As a team leader, I guided the development of this application, which enables employees to fill in their skills and knowledge, and allows HR managers to filter and search for employees with specific skills and expertise. We have used technologies such as React, Redux, Styled-Components, NodeJS, PostgreSQL, unit and e2e testing. With some integrations such as Microsoft (to implement the login), Blob Storage & BambooHR."
+      ],
+      "skills": [
+        "react",
+        "javascript",
+        "redux",
+        "styledComponents",
+        "mui",
+        "node",
+        "postgresql",
+        "cypress",
+        "jest",
+        "webpack",
+        "git",
+        "figma"
       ]
     }
   },

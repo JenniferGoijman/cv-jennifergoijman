@@ -23,6 +23,19 @@
       "dates": "Marzo 2023 - Presente",
       "description": [
         "Como Frontend Engineer, he estado desarrollando una aplicación para un proveedor de servicios de gestión del agua, utilizando React, TypeScript, SWR, MobX, Styled-Components, Cypress y Figma. Mis responsabilidades incluyen la integración fluida de datos desde la API del equipo de backend, fomentando una comunicación y colaboración consistentes entre los departamentos. Me dedico a ofrecer interfaces de usuario de alta calidad y receptivas."
+      ],
+      "skills": [
+        "react",
+        "typescript",
+        "swr",
+        "mobx",
+        "styledComponents",
+        "cypress",
+        "jest",
+        "storybook",
+        "vite",
+        "git",
+        "figma"
       ]
     },
     "oneBeyond": {
@@ -32,6 +45,20 @@
       "description": [
         "Tengo una amplia experiencia en diversos proyectos, incluyendo una plataforma de aprendizaje en línea para una editorial educativa. Formé parte del segmento de Experiencia de Aprendizaje y desempeñé un papel clave en la creación de una biblioteca de frontend que renderiza ejercicios interactivos de aprendizaje en línea utilizando tecnologías como React, Redux, MUI, pruebas unitarias y de extremo a extremo.",
         "Asimismo, poseo experiencia en liderar y orientar a miembros del equipo en el desarrollo e implementación de una aplicación interna de pila completa para la gestión de habilidades. Como líder de equipo, guié el desarrollo de esta aplicación, que permite a los empleados registrar sus habilidades y conocimientos, y facilita a los gerentes de recursos humanos filtrar y buscar empleados con habilidades y experiencia específicas. Hemos utilizado tecnologías como React, Redux, Styled-Components, NodeJS, PostgreSQL, pruebas unitarias y de extremo a extremo, con algunas integraciones como Microsoft (para implementar el inicio de sesión), Blob Storage y BambooHR."
+      ],
+      "skills": [
+        "react",
+        "javascript",
+        "redux",
+        "styledComponents",
+        "mui",
+        "node",
+        "postgresql",
+        "cypress",
+        "jest",
+        "webpack",
+        "git",
+        "figma"
       ]
     }
   },
