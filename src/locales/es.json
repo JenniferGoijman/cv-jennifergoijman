@@ -1,0 +1,16 @@
+{
+  "personalInformation": {
+    "location": {
+      "icon": "📍",
+      "text": "Madrid, España"
+    },
+    "email": {
+      "icon": "📫",
+      "text": "jgoijman@gmail.com"
+    },
+    "phone": {
+      "icon": "📞",
+      "text": "+34644943349"
+    }
+  }
+}
