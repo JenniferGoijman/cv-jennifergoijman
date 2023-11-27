@@ -3,6 +3,7 @@ export type SkillType = 'cypress' | 'javascript' | 'jest' | 'figma' | 'git' | 'm
 export type SkillData = {
   [key in SkillType]: {
     name: string
+    alt: string
     url?: string
     icon?: string;
   }

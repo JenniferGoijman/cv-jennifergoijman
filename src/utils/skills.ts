@@ -20,74 +20,92 @@ import { SkillData } from './skills.model'
 export const skills: SkillData = {
   cypress: {
     name: "Cypress",
-    url: cypressImage
+    url: cypressImage,
+    alt: "Cypress logo"
   },
   javascript: {
     name: "JavaScript",
-    url: javascriptImage
+    url: javascriptImage,
+    alt: "JavaScript logo"
   },
   jest: {
     name: "Jest",
-    url: jestImage
+    url: jestImage,
+    alt: "Jest logo"
   },
   figma: {
     name: "Figma",
-    url: figmaImage
+    url: figmaImage,
+    alt: "Figma logo"
   },
   git: {
     name: "Git",
-    url: gitImage
+    url: gitImage,
+    alt: "Git logo"
   },
   mui: {
     name: "MUI",
-    url: muiImage
+    url: muiImage,
+    alt: "MUI logo"
   },
   mobx: {
     name: "mobX",
-    url: mobxImage
+    url: mobxImage,
+    alt: "mobX logo"
   },
   nest: {
     name: "NestJS",
-    url: nestjsImage
+    url: nestjsImage,
+    alt: "NestJS logo"
   },
   node: {
     name: "NodeJS",
-    url: nodejsImage
+    url: nodejsImage,
+    alt: "NodeJS logo"
   },
   react: {
     name: "React",
-    url: reactImage
+    url: reactImage,
+    alt: "React logo"
   },
   redux: {
     name: "Redux",
-    url: reduxImage
+    url: reduxImage,
+    alt: "Redux logo"
   },
   postgresql: {
     name: "PostgreSQL",
-    url: postgresqlImage
+    url: postgresqlImage,
+    alt: "PostgreSQL logo"
   },
   storybook: {
     name: "Storybook",
-    url: storybookImage
+    url: storybookImage,
+    alt: "Storybook logo"
   },
   styledComponents: {
     name: "Styled Components",
-    icon: '💅'
+    icon: '💅',
+    alt: "Styled Components icon"
   },
   swr: {
     name: "SWR",
-    url: swrImage
+    url: swrImage,
+    alt: "SWR logo"
   },
   typescript: {
     name: "TypeScript",
-    url: typescriptImage
+    url: typescriptImage,
+    alt: "TypeScript logo"
   },
   vite: {
     name: "Vite",
-    url: viteImage
+    url: viteImage,
+    alt: "Vite logo"
   },
   webpack: {
     name: "Webpack",
-    url: webpackImage
+    url: webpackImage,
+    alt: "Webpack logo"
   }
 }

@@ -18,10 +18,12 @@ export const StyledSkillContainer = styled.div`
 
 export const StyledSkillImage = styled.img`
   width: 20px;
+  height: 20px;
   margin-right: 8px;
 `
 
 export const StyledSkillIcon = styled.div`
   width: 20px;
+  height: 20px;
   margin-right: 8px;
 `

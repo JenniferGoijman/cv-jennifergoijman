@@ -1,15 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { TextWithIcon } from "../common/Typography/Typography"
-import { Container, SubHeader } from "./PersonalInformation.styled"
+import { Container } from "./PersonalInformation.styled"
 
 export const PersonalInformation = () => {
   const { t } = useTranslation();
 
   return (
     <Container>
-      <SubHeader>
-        Full Stack Developer
-      </SubHeader>
+      <h2>Full Stack Developer</h2>
 
       <TextWithIcon
         icon={t('personalInformation.location.icon')}

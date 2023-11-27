@@ -9,8 +9,8 @@ const Skill = ({ skill }: { skill: SkillType }) => {
   return (
   <StyledSkillContainer>
     {currentSkill.url
-      ? <StyledSkillImage src={currentSkill.url}/>
-      : <StyledSkillIcon>{currentSkill.icon}</StyledSkillIcon>}
+      ? <StyledSkillImage src={currentSkill.url} alt={currentSkill.alt}/>
+      : <StyledSkillIcon title={currentSkill.alt}>{currentSkill.icon}</StyledSkillIcon>}
     <b>{currentSkill.name}</b>
   </StyledSkillContainer>
 )}
