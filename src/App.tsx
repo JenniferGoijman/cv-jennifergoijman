@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { Section } from './components/common/Section/Section'
 import { Languages } from './components/Languages/Languages'
 import { Jobs } from './components/Jobs/Jobs'
+import { Education } from './components/Education/Education'
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
 
       <Section title="Work Experience">
         <Jobs />
+      </Section>
+
+      <Section title="Education">
+        <Education />
       </Section>
 
       <Section title="Languages">
