@@ -1,3 +1,4 @@
+import uniqid from 'uniqid'
 import { skills } from "../../utils/skills"
 import { SkillType } from "../../utils/skills.model"
 import { StyledSkillContainer, StyledSkillIcon, StyledSkillImage, StyledSkillsContainer } from "./Skills.styled"
@@ -16,6 +17,6 @@ const Skill = ({ skill }: { skill: SkillType }) => {
 
 export const SkillsContainer = ({ skills }: { skills: SkillType[] }) => (
   <StyledSkillsContainer>
-    {skills.map(skill => <Skill key={skill} skill={skill} />)}
+    {skills.map(skill => <Skill key={uniqid()} skill={skill} />)}
   </StyledSkillsContainer>
 )

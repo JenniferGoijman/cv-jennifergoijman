@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import uniqid from 'uniqid'
 import { Paragraph } from '../common/Typography/Typography';
 import { LanguageContainer } from './Languages.styled';
 
@@ -13,7 +14,7 @@ export const Languages = () => {
   return (
     <>
       {languagesArray.map(language => (
-        <LanguageContainer>
+        <LanguageContainer key={uniqid()}>
           <LanguageName text={t(`languages.${language}.name`)} />
           <LanguageLevel text={t(`languages.${language}.level`)} />
         </LanguageContainer>
