@@ -2,6 +2,8 @@ import './App.css'
 import { PersonalInformation } from './components/PersonalInformation/PersonalInformation'
 import { useTranslation } from 'react-i18next'
 import { Section } from './components/common/Section/Section'
+import { Languages } from './components/Languages/Languages'
+
 
 function App() {
   const { i18n, t } = useTranslation();
@@ -20,6 +22,10 @@ function App() {
 
       <Section title="About Me">
         <p>{t('aboutMe.text')}</p>
+      </Section>
+
+      <Section title="Languages">
+        <Languages />
       </Section>
     </>
   )

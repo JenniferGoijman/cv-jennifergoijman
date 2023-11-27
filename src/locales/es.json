@@ -15,5 +15,19 @@
   },
   "aboutMe": {
     "text": "Soy una desarrolladora de software altamente cualificada y experimentada con una pasión por utilizar JavaScript y abordar problemas complejos. Con más de 3 años de experiencia en el campo, he cultivado un conjunto de habilidades versátil y una sólida capacidad para adaptarme a nuevos desafíos. Me caracterizo por ser una persona altamente motivada y persistente que busca constantemente mejorar y superar los límites de mis habilidades. Mis habilidades organizativas sólidas y una mentalidad centrada en el cliente, junto con mis habilidades de comunicación superiores, me convierten en un activo para cualquier equipo, especialmente aquellos que son remotos y globalmente diversos."
+  },
+  "languages": {
+    "spanish": {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    "english": {
+      "name": "Ingles",
+      "level": "Avanzado"
+    },
+    "german": {
+      "name": "German",
+      "level": "Básico"
+    }
   }
 }
