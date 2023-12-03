@@ -27,3 +27,7 @@ export const StyledSkillIcon = styled.div`
   height: 20px;
   margin-right: 8px;
 `
+
+export const StyledBold = styled.b`
+  color: #213547 !important;
+`

@@ -1,7 +1,7 @@
 import uniqid from 'uniqid'
 import { skills } from "../../utils/skills"
 import { SkillType } from "../../utils/skills.model"
-import { StyledSkillContainer, StyledSkillIcon, StyledSkillImage, StyledSkillsContainer } from "./Skills.styled"
+import { StyledBold, StyledSkillContainer, StyledSkillIcon, StyledSkillImage, StyledSkillsContainer } from "./Skills.styled"
 
 const Skill = ({ skill }: { skill: SkillType }) => {
   const currentSkill = skills[skill]
@@ -11,7 +11,7 @@ const Skill = ({ skill }: { skill: SkillType }) => {
     {currentSkill.url
       ? <StyledSkillImage src={currentSkill.url} alt={currentSkill.alt}/>
       : <StyledSkillIcon title={currentSkill.alt}>{currentSkill.icon}</StyledSkillIcon>}
-    <b>{currentSkill.name}</b>
+    <StyledBold>{currentSkill.name}</StyledBold>
   </StyledSkillContainer>
 )}
 
