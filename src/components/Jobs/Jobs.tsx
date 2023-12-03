@@ -26,7 +26,9 @@ export const Jobs = () => {
                 <CompanyName text={t(`jobs.${job}.name`)} />
                 <JobPosition text={t(`jobs.${job}.position`)} />
               </div>
-              <Dates text={t(`jobs.${job}.dates`)} />
+              <div style={{ textAlign: 'right', maxWidth: '40%' }}>
+                <Dates text={t(`jobs.${job}.dates`)} />
+              </div>
             </div>
 
             {descriptions.map(description => <Paragraph key={uniqid()}>{description}</Paragraph>)}

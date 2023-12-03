@@ -23,7 +23,9 @@ export const Education = () => {
                 <CompanyName text={t(`education.${study}.name`)} />
                 <JobPosition text={t(`education.${study}.title`)} />
               </div>
-              <Dates text={t(`education.${study}.dates`)} />
+              <div style={{ textAlign: 'right' }}>
+                <Dates text={t(`education.${study}.dates`)} />
+              </div>
             </div>
 
             {descriptions.map(description => <Paragraph key={uniqid()}>{description}</Paragraph>)}
