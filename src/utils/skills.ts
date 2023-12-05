@@ -19,93 +19,93 @@ import { SkillData } from './skills.model'
 
 export const skills: SkillData = {
   cypress: {
-    name: "Cypress",
+    name: 'Cypress',
     url: cypressImage,
-    alt: "Cypress logo"
+    alt: 'Cypress logo'
   },
   javascript: {
-    name: "JavaScript",
+    name: 'JavaScript',
     url: javascriptImage,
-    alt: "JavaScript logo"
+    alt: 'JavaScript logo'
   },
   jest: {
-    name: "Jest",
+    name: 'Jest',
     url: jestImage,
-    alt: "Jest logo"
+    alt: 'Jest logo'
   },
   figma: {
-    name: "Figma",
+    name: 'Figma',
     url: figmaImage,
-    alt: "Figma logo"
+    alt: 'Figma logo'
   },
   git: {
-    name: "Git",
+    name: 'Git',
     url: gitImage,
-    alt: "Git logo"
+    alt: 'Git logo'
   },
   mui: {
-    name: "MUI",
+    name: 'MUI',
     url: muiImage,
-    alt: "MUI logo"
+    alt: 'MUI logo'
   },
   mobx: {
-    name: "mobX",
+    name: 'mobX',
     url: mobxImage,
-    alt: "mobX logo"
+    alt: 'mobX logo'
   },
   nest: {
-    name: "NestJS",
+    name: 'NestJS',
     url: nestjsImage,
-    alt: "NestJS logo"
+    alt: 'NestJS logo'
   },
   node: {
-    name: "NodeJS",
+    name: 'NodeJS',
     url: nodejsImage,
-    alt: "NodeJS logo"
+    alt: 'NodeJS logo'
   },
   react: {
-    name: "React",
+    name: 'React',
     url: reactImage,
-    alt: "React logo"
+    alt: 'React logo'
   },
   redux: {
-    name: "Redux",
+    name: 'Redux',
     url: reduxImage,
-    alt: "Redux logo"
+    alt: 'Redux logo'
   },
   postgresql: {
-    name: "PostgreSQL",
+    name: 'PostgreSQL',
     url: postgresqlImage,
-    alt: "PostgreSQL logo"
+    alt: 'PostgreSQL logo'
   },
   storybook: {
-    name: "Storybook",
+    name: 'Storybook',
     url: storybookImage,
-    alt: "Storybook logo"
+    alt: 'Storybook logo'
   },
   styledComponents: {
-    name: "Styled Components",
+    name: 'Styled Components',
     icon: '💅',
-    alt: "Styled Components icon"
+    alt: 'Styled Components icon'
   },
   swr: {
-    name: "SWR",
+    name: 'SWR',
     url: swrImage,
-    alt: "SWR logo"
+    alt: 'SWR logo'
   },
   typescript: {
-    name: "TypeScript",
+    name: 'TypeScript',
     url: typescriptImage,
-    alt: "TypeScript logo"
+    alt: 'TypeScript logo'
   },
   vite: {
-    name: "Vite",
+    name: 'Vite',
     url: viteImage,
-    alt: "Vite logo"
+    alt: 'Vite logo'
   },
   webpack: {
-    name: "Webpack",
+    name: 'Webpack',
     url: webpackImage,
-    alt: "Webpack logo"
+    alt: 'Webpack logo'
   }
 }

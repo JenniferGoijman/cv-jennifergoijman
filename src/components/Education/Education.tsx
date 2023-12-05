@@ -1,6 +1,6 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import uniqid from 'uniqid'
-import { Paragraph } from "../common/Typography/Typography";
+import { Paragraph } from '../common/Typography/Typography';
 
 const educationArray = ['geeksHubsAcademy', 'uba'];
 

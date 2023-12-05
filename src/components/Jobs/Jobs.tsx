@@ -1,8 +1,8 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 import uniqid from 'uniqid'
-import { Paragraph } from "../common/Typography/Typography";
-import { SkillsContainer } from "../Skills/Skills";
-import { SkillType } from "../../utils/skills.model";
+import { Paragraph } from '../common/Typography/Typography';
+import { SkillsContainer } from '../Skills/Skills';
+import { SkillType } from '../../utils/skills.model';
 
 const jobsArray = ['journi', 'oneBeyond'];
 
