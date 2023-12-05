@@ -12,17 +12,17 @@ export const PersonalInformation = () => {
       <TextWithIcon
         icon={t('personalInformation.location.icon')}
         text={t('personalInformation.location.text')}
-        />
+      />
 
       <TextWithIcon
         icon={t('personalInformation.email.icon')}
         text={t('personalInformation.email.text')}
-        />
+      />
 
       <TextWithIcon
         icon={t('personalInformation.phone.icon')}
         text={t('personalInformation.phone.text')}
-        />
+      />
     </Container>
   )
 }

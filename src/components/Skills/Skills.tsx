@@ -7,13 +7,13 @@ const Skill = ({ skill }: { skill: SkillType }) => {
   const currentSkill = skills[skill]
 
   return (
-  <StyledSkillContainer>
-    {currentSkill.url
-      ? <StyledSkillImage src={currentSkill.url} alt={currentSkill.alt}/>
-      : <StyledSkillIcon title={currentSkill.alt}>{currentSkill.icon}</StyledSkillIcon>}
-    <StyledBold>{currentSkill.name}</StyledBold>
-  </StyledSkillContainer>
-)}
+    <StyledSkillContainer>
+      {currentSkill.url
+        ? <StyledSkillImage src={currentSkill.url} alt={currentSkill.alt}/>
+        : <StyledSkillIcon title={currentSkill.alt}>{currentSkill.icon}</StyledSkillIcon>}
+      <StyledBold>{currentSkill.name}</StyledBold>
+    </StyledSkillContainer>
+  )}
 
 export const SkillsContainer = ({ skills }: { skills: SkillType[] }) => (
   <StyledSkillsContainer>
